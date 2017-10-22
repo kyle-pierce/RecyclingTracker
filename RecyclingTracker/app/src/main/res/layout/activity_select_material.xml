@@ -14,7 +14,7 @@
         android:gravity="center"
         android:background="@color/make"
         android:textSize="125sp"
-        android:onClick="make"/>
+        android:onClick="selectedPaper"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -24,7 +24,7 @@
         android:gravity="center"
         android:textSize="125sp"
         android:id="@+id/tvFinish"
-        android:onClick="finish"/>
+        android:onClick="selectedPlastic"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -34,6 +34,6 @@
         android:gravity="center"
         android:background="@color/miss"
         android:textSize="125sp"
-        android:onClick="miss"/>
+        android:onClick="selectedGlass"/>
 
 </LinearLayout>
